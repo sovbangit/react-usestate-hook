@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 import Mycomp from "./comp";
+import Country from "./contry";
 
 export default function App() {
   var [count, setState] = useState(5);
@@ -18,6 +19,7 @@ export default function App() {
         <button onClick={() => onclickhandle(count + 1)}> Increment </button>
         <button onClick={() => onclickhandle(count - 1)}> Decrement </button>
         <p className="label"> {count} </p>
+        <Country />
       </div>
     </div>
   );
