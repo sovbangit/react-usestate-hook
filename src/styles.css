@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div {
+  color: red;
+  font-size: 10px;
+}
+
+p {
+  color: blue;
+  font-size: 9px;
+}
+
+p.label {
+  font-size: 15px;
+}
+
+button {
+  background-color: green;
+  border-color: gold;
+  color: white;
+  border-radius: 10px;
+  min-width: 50px;
+}
